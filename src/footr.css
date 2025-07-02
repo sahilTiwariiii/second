@@ -1,0 +1,110 @@
+.simple-footer {
+  background: #E5EAF0;
+  color: #1a202c;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+  font-family: 'Inter', Arial, sans-serif;
+  box-shadow: 0 2px 12px rgba(30,41,59,0.04);
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+.footer-logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.2rem;
+}
+.footer-logo-text {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #1a202c;
+  margin-bottom: 1.2rem;
+}
+
+.simple-footer-hr {
+  border: none;
+  border-top: 1px solid #cbd5e1;
+  margin: 0 auto 1.2rem auto;
+  width: 96%;
+}
+
+.simple-footer-socials {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.simple-footer-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #E5EAF0;
+  transition: background 0.2s;
+}
+.simple-footer-socials a:hover {
+  background: #d1d9e3;
+}
+.simple-footer-socials svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.simple-footer-copy {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 0.3rem;
+}
+
+.simple-footer-message {
+  font-size: 0.98rem;
+  color: #475569;
+  margin-top: 0.5rem;
+} 
+/* in hero section Find Your Inner Peace
+Discover a journey of mindfulness, spiritual growth, and inner harmony through our guided meditations and wellness practices.
+
+Start Your Journey
+Learn More this is cmoing form direct lieft touching the left which was not good according to ui so pelase make this more god and adject it spae in left dn righ tso that i look good  */
+
+/* --- IMPROVED RESPONSIVENESS BELOW --- */
+@media (max-width: 500px) {
+  .simple-footer {
+    padding-left: 0.7rem !important;
+    padding-right: 0.7rem !important;
+    font-size: 0.95rem;
+  }
+  .footer-logo-text {
+    font-size: 1.1rem;
+  }
+  .simple-footer-socials {
+    gap: 0.7rem;
+  }
+  .simple-footer-socials a {
+    width: 34px;
+    height: 34px;
+  }
+  .simple-footer-socials svg {
+    width: 20px;
+    height: 20px;
+  }
+  .simple-footer-copy, .simple-footer-message {
+    font-size: 0.9rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    word-break: break-word;
+  }
+}
